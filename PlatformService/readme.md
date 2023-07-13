@@ -35,3 +35,11 @@ Kubernetes is running ? `kubectl version`
    1. `kubectl apply -f platforms-np-srv.yaml`
    2. `kubectl get services` find the port
    3. test service `http://localhost:32271/api/platforms`
+
+**CommandsService:**
+
+1. `cd .\CommandsService\`
+2. `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
+3. `dotnet add package Microsoft.EntityFrameworkCore`
+4. `dotnet add package Microsoft.EntityFrameworkCore.Design`
+5. `dotnet add package Microsoft.EntityFrameworkCore.InMemory`
