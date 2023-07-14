@@ -25,7 +25,7 @@ Kubernetes is running ? `kubectl version`
    2. `kubectl get services` find the port
    <!-- 3. test service `http://localhost:32271/api/platforms` -->
 
-**Troubleshooting:**
+**Troubleshooting: (Kubernetes)**
 Here are a few things you can check and troubleshoot to resolve this issue:
 
 1. Verify the service and its port: Ensure that the service "commands-clusterip-srv" is correctly defined in your Kubernetes cluster, and it is exposing port 80. You can check the service configuration using the kubectl get service command.
